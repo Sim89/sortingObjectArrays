@@ -25,3 +25,44 @@ header h1 {
    text-align: center;
    text-transform: uppercase;
 }
+
+main .sort-options {
+   display: flex;
+   justify-content: space-between;
+
+   width: 100%;
+   max-width: 480px;
+
+   margin: 30px auto;
+}
+
+main .sort-options button {
+   flex: 1 1 33%;
+   appearance: none;
+
+   background-color: #f45f;
+   border: none;
+   outline: none;
+
+   border-radius: 8px;
+   padding: 15px 0px;
+   margin: 0px 8px;
+   font-size: 16px;
+   font-weight: 700;
+
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+main .list-headers {
+   display: flex;
+   justify-content: space-between;
+
+   width: 100%;
+   max-width: 480px;
+
+   margin: 30px auto 0px;
+   padding: 0px 15px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
